@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .counter-container{
+    height: 100vh;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: larger;
+  }
+  .button-68{
+    
+      appearance: none;
+      backface-visibility: hidden;
+      background-color: #ff0000;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      height: 40px;
+      width: 70px;
+      margin-right: 85px;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 15px 18;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .button-68:hover {
+      
+      background-color: #b31b1b;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .button-68:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .button-68:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+    }
+  
+    .button-69{
+    
+      appearance: none;
+      
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      
+      border-radius: 8px;
+      border-style: none;
+      margin-left: 85px;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      height: 40px;
+      width: 70px;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 15 18;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .button-69:hover {
+      background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+    }
+    
+    .button-69:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+    }
+    
+    .button-69:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+    }
+    .counter-container .inside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .box{
+      width: 300px;
+      height: 180px;
+      z-index: 99;
+      position: fixed;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      
+  }
+ 
+  .box p{
+      font-size: 20px;
+      font-family: sans-serif;
+  }
+   
+      .ok {
+        appearance: none;
+        background-color: #23ac4a;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 20px;
+        display: inline-block;
+        width: 70px;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      
+      .ok:focus:not(:focus-visible):not(.focus-visible) {
+        box-shadow: none;
+        outline: none;
+      }
+      
+      .ok:hover {
+        background-color: #136d2d;
+      }
+      
+      .ok:focus {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+      }
+      
+      .ok:disabled {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+      }
+      
+      .ok:active {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+      }
+  
